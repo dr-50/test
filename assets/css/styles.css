@@ -1,0 +1,118 @@
+body{
+    background-color: rgba(100, 148, 237, 0.795);
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: whitesmoke;
+    height: auto;
+    justify-content: space-between;
+}
+.Logo h2{
+    margin-top: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 36px;
+    width: 100%;
+}
+
+header nav ul {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: underline;
+    color: #fce138;
+}
+
+header nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+header a {
+    color: #000;
+}
+
+
+/* InventorySearch Start*/
+
+.GlobalSearch {
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    resize: none;
+    box-shadow: 5px 5px 10px #000;
+    position: fixed;
+    justify-content: center;
+    left: 10%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.searchdrops{
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+
+.search-text {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+
+}
+
+
+#Inv-IdSearch , #Inv-StorageContract{
+    resize: none;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.searchButtons{
+    justify-content: center;
+}
+.submitButton{
+    height: 50px;
+    width: 100px;
+    background-color: yellowgreen;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.submitButton:hover{
+    background-color: rgba(128, 128, 128, 0.3);
+    color: green;
+    font-weight: bold;
+}
+
+.clearButton{
+    height: 50px;
+    width: 100px;
+    background-color:lightcoral;
+    margin: 40px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.clearButton:hover{
+    background-color: rgba(128,128,128,0.30);
+    color: red;
+}
+
+
+
+/* InventorySearch End */

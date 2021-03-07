@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>InventorySearch</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <section class="Logo">
+        <h2><a href="../index.html">Inventory Module</a></h2>
+      </section>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="./InventorySearch.html">Inventory Search</a>
+          </li>
+          <li>
+            <a href="#">Create New Inventory</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="GlobalSearch">
+      <div class="search-item">
+        <div class="searchdrops">
+          <form>
+            <label for="InvLDC">Choose an LDC:</label>
+            <select name="InvLDC" id="InvLDC">
+              <option value="All">All</option>
+              <option value="LDC1">LDC1</option>
+              <option value="LDC2">LDC2</option>
+              <option value="LDC3">LDC3</option>
+              <option value="LDC4">LDC4</option>
+              <option value="LDC5">LDC5</option>
+            </select>
+          </form>
+
+          <form>
+            <label for="InvStatus">Status:</label>
+            <select name="InvStatus" id="InvStatus">
+              <option value="Current">Current</option>
+              <option value="Expired">Expired</option>
+            </select>
+          </form>
+
+          <form>
+            <label for="Inv-Type">Type</label>
+            <select name="Inv-Type" id="Inv-Type">
+              <option value="Loan">Loan</option>
+              <option value="Storage">Storage</option>
+            </select>
+          </form>
+        
+      </div>
+      <div class="search-text">
+        <form>
+          <label for="Inv-IdSearch">Inventory Id:</label>
+          <textarea id="Inv-IdSearch"></textarea>
+
+          <label for="Inv-StorageContract">Storage Contract:</label>
+          <textarea id="Inv-StorageContract"></textarea>
+        </form>
+      </div>
+    </div>  
+      <div class="searchButtons"></div>
+        <button type="submit" class="submitButton">Search</button>
+        <button type="reset" class="clearButton">Clear Filters</button>
+      </div>
+    
+
+    <section class="InvResults"></section>
+  </body>
+</html>
